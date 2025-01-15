@@ -1,4 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+
 @tailwind base;
+
+h3,
+p {
+  font-family: "Space Grotesk", serif;
+}
 
 @layer base {
   :root {
@@ -16,7 +23,7 @@
       --color-text-base: 10, 15, 25;
       --color-text-muted: 80, 100, 120;
       --color-text-inverted: 240, 240, 240;
-    --color-fill: 245, 245, 245; /* Light background for light theme */
+      --color-fill: 245, 245, 245; /* Light background for light theme */
       --muted: 160, 180, 200;
       --color: 59, 130, 246;
       --color-button-accent: 59, 130, 246;
@@ -28,7 +35,7 @@
       --color-text-base: 30, 20, 20;
       --color-text-muted: 100, 80, 80;
       --color-text-inverted: 245, 245, 245;
-    --color-fill: 245, 245, 245; /* Light background for light theme */
+      --color-fill: 245, 245, 245; /* Light background for light theme */
       --muted: 200, 150, 150;
       --color: 217, 70, 70;
       --color-button-accent: 217, 70, 70;
@@ -40,7 +47,7 @@
       --color-text-base: 20, 40, 30;
       --color-text-muted: 70, 90, 80;
       --color-text-inverted: 240, 250, 245;
-    --color-fill: 245, 245, 245; /* Light background for light theme */
+      --color-fill: 245, 245, 245; /* Light background for light theme */
       --muted: 170, 200, 180;
       --color: 85, 138, 125;
       --color-button-accent: 85, 138, 125;
@@ -64,7 +71,7 @@
       --color-text-base: 220, 225, 230; /* Soft cool white text */
       --color-text-muted: 140, 150, 160;
       --color-text-inverted: 10, 15, 20;
-    --color-fill: 18, 18, 18; /* Dark background */
+      --color-fill: 18, 18, 18; /* Dark background */
       --muted: 60, 70, 80; /* Muted navy */
       --color: 89, 165, 255; /* Glowing blue */
       --color-button-accent: 89, 165, 255;
@@ -76,7 +83,7 @@
       --color-text-base: 240, 230, 230;
       --color-text-muted: 150, 130, 130;
       --color-text-inverted: 30, 15, 15;
-          --color-fill: 18, 18, 18; /* Dark background */
+      --color-fill: 18, 18, 18; /* Dark background */
       --muted: 70, 60, 60; /* Muted dark red */
       --color: 210, 80, 80; /* Professional red */
       --color-button-accent: 210, 80, 80;
@@ -88,7 +95,7 @@
       --color-text-base: 220, 240, 230;
       --color-text-muted: 100, 130, 120;
       --color-text-inverted: 30, 40, 35;
-    --color-fill: 18, 18, 18; /* Dark background */
+      --color-fill: 18, 18, 18; /* Dark background */
       --muted: 70, 90, 80; /* Muted green-gray */
       --color: 85, 138, 125;
       --color-button-accent: 85, 138, 125;
