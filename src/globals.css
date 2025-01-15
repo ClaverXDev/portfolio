@@ -1,13 +1,5 @@
 @tailwind base;
 
-h1,
-.font,
-h2,
-h3 {
-  font-family: "Pacifico", cursive;
-}
-
-
 @layer base {
   :root {
     --color-text-base: 0, 0, 0;
